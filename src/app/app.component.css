@@ -1,0 +1,300 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 280px 650px 350px;    
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    /* margin-left: 40px; */
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    border-color: royalblue;
+    border-style: none;
+    border-width: 1px;
+    box-shadow: 2px 2px 2px 1px rgba(22, 198, 221, 0.322);
+}
+
+.izquierda {
+    display: grid;
+    grid-template-columns: 280px;    
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    box-sizing: border-box;
+    width: 100%;
+    height: 900px;
+    border-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    background-color: white;
+    padding-bottom: 40px;
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+}
+
+.izquierda img{
+    /* width:500px; */
+    margin:auto;
+    margin-left: -100px;
+    margin-top: -50px;
+    border-radius: 25%;    
+}
+
+
+
+.centro{
+    display: grid;
+    grid-template-columns: 650px;    
+    /* flex-direction: row; */
+    /* align-items: center; */
+    margin: auto;
+    box-sizing: border-box;
+    width: 100%;
+    height: 900px;
+    border-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    background-color: white;
+    padding-bottom: 40px;
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+}
+
+.derecha{
+    /* display: grid;
+    
+    grid-template-columns: 245px;     */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    width: 245px;
+    margin: auto;
+    box-sizing: border-box;
+    width: 100%;
+    height: 900px;
+    border-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    background-color: white;
+    padding-bottom: 40px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.perfil{
+    width: 100%;
+    height: 140px;
+    background-color: white;
+}
+
+.perfil img{
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.perfil h4{
+    margin-top: -30px;
+    margin-left: 60px;    
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.blanco{
+    width: 100%;
+    height: 100px;    
+    background-color: white;
+}
+
+.buscar{
+    width: 205px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: grey;
+    color:black;
+    margin-left: 3%;
+    margin-top: 20px;
+    border: none;
+    text-align: center;
+
+}
+
+.icono_buscar{
+    width: 20px;
+    margin-left: 10%;
+    z-index: 100;
+    
+}
+
+.ultimos_ch{
+    display: grid;
+    margin-top: 10px;
+    width: 280px;
+    height: auto;
+    border-radius: 10px;
+    background-color: pink;
+    margin-left: 6%;
+    padding-bottom: 10px;
+}
+
+.texto_page {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.tops{
+    display: grid;
+    margin-top: 10px;
+    width: 280px;
+    height: 270px;
+    border-radius: 10px;
+    background-color: pink;
+    margin-left: 6%;
+}
+
+.option_menu{
+    /* display: flex; */
+    margin-left: 40px;
+    align-items:flex-start;
+    position: relative;  
+
+}
+.option_menu img{
+    margin-left: 10px;
+    width:20px;
+}
+
+.option_menu h4{
+    /* margin-top: 5px; */
+    margin-top: -22px;
+    margin-left: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+.option_menu h4:hover{
+    color: red;
+}
+
+.comentario{
+    width: 100%;
+    height: 360px;
+    background-color: white;
+    /* border-radius: 10px; */
+    margin: auto;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    /* margin-top: -40px; */
+}
+
+
+.comentario img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.comentario h4{
+    margin-top: -50px;
+    margin-left: 65px;    
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+#comentario{
+    color: red;
+    margin-top: 10px;
+}
+
+.imagen_com img{ 
+    width: 300px;
+    height: 90px;
+    display: flex;    
+    align-items: flex-start;
+    
+}
+
+#img_com{
+    width: 470px;
+    height: 240px;
+    margin-left: 100px;
+    border-radius: 15px;
+    margin-top: 5px;
+
+}
+
+
+.nombre_user{
+    color: black;
+}
+
+.imagen_comentario{
+    width:520px;
+    height: 280px;
+    margin: auto;
+    margin-top: -350px;
+    background-color: white;
+}
+
+.opciones_perfil{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    width: 30px;
+    margin-top: -20px;
+}
+
+.opciones_perfil img{
+    
+    width: 30px;
+
+}
+
+.iconos_perfil{
+    width: 20px;
+
+}
+
+.lista_chismes{
+    display: grid;
+    align-items:flex-start;
+    justify-items: left; 
+}
+
+.lista_chismes img{
+    width: 40px;
+    
+}
+
+
+.titulo_chisme{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;    
+    margin-left: 10px;
+    color: grey;
+}
+
+.texto_chisme{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;    
+    width:200px;
+    margin-left: 10px;
+}
+
+.noticia {
+    align-items:flex-start;
+    position: relative;      
+    
+}
